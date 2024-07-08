@@ -1,0 +1,471 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-size: 1rem;
+    font-family: "Inter", sans-serif;
+    font-style: normal;
+    font-optical-sizing: auto;
+    font-variation-settings:"slnt" 0;
+    font-weight: 400;
+}
+
+main{
+    height: auto;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 2.5vh 40vh;
+    flex-wrap: wrap;
+}
+
+
+
+body{
+    background-color: #EFEEEE;
+}
+
+.posteo{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 350px;
+    padding: 15px;
+    border-radius: 20px;
+    height: 340px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.contenedorPerfil{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.fotoPerfil{
+    width: 50px;
+    height: 50px;
+    border-radius: 60px;
+    margin-right: 5px;
+}
+
+.postEncabezado{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.guardar{
+    background-color: #F6F7F8;
+    padding: 6px;
+    border-radius: 9px;
+    border: 1px solid rgba(194, 193, 193, 0.853);
+
+
+}
+
+.posteo h1{
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 0px;
+}
+
+.tiempoPublicacion{
+    font-size: 0.7rem;
+    font-weight: 300;
+    color: gray;
+}
+
+.textoPrincipal{
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+}
+
+.textoSecundario{
+    font-size: 0.8rem;
+    color: rgb(115, 115, 115);
+    margin-bottom: 5px;
+}
+
+.contenedorTags{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 5px;
+}
+
+.contenedorTags p{
+    background-color: #D9E2FC;
+    font-size: 0.9rem;
+    padding: 5px;
+    border-radius: 8px;
+}
+
+.lineaCortada{
+    border-top: 1px dashed #ccc;
+    border-bottom: 1px dashed #ccc;
+    width: 100%;
+    margin: 20px 0;
+}
+
+.posteo h3{
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.horarios{
+    font-size: 0.7rem;
+    font-weight: 500;
+    color: gray;
+    margin-bottom: 10px;
+}
+
+.aplicar{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    
+}
+.posteo button{
+    width: 100%;
+    height: 60px;
+    border-radius: 20px;
+    border: none;
+    background-color: #397CF8;
+    color: white;
+    cursor: pointer;
+}
+
+.posteo .bi-lightning-charge-fill{
+    color: white;
+    margin-right: 5px;
+}
+
+/* Contenedor Stats */
+
+.stats{
+    width: 320px;
+    padding: 15px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    background-color: #313131;
+    height: 470px;
+    color: white;
+}
+
+.StatsEncabezado{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.stats h1{
+    font-size: 1.2rem;
+    margin: 0px;
+}
+
+.stats select{
+    height: 40px;
+    background-color: #454546;
+    color: white;
+    padding: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.433);
+    border-radius: 15px;
+}
+
+.titulo{
+    margin-bottom: 10px;
+}
+
+.price{
+    font-size: 2.5rem;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.price span{
+    font-size: 2.5rem;
+    color: #696969;
+    font-weight: 600;
+}
+
+.contenedorEvolucion{
+    display: flex;
+    gap: 5px;
+    
+}
+
+.contenedorEvolucion p{
+    color: #1EBE3C;
+    font-size: 0.9rem;
+    margin-bottom: 20px;
+}
+
+.contenedorEvolucion span{
+    font-size: 0.9rem;
+}
+
+.contenedorInformacion{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.contProjectos{
+    background-color: #3E3E3E;
+    width: 50%;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.contenedorCard{
+    display: flex;
+    align-items: end;
+    gap: 10px;
+    margin-bottom: 2.5px;
+
+}
+
+.principal{
+    font-size: 1.5rem;;
+}
+
+.principal2 , .secundario2{
+    color: #B3B2B2;
+    font-size: 0.8rem;
+}
+
+.secundario{
+    font-size: 0.8rem;
+}
+
+.contenedorLugar{
+    width: 100%;
+    background-color: #F0F0F0;
+    border-radius: 16px;
+    padding: 10px;
+    color: black;
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.stats h4{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.contenedorLugar p{
+    color: #8A8A8A;
+    font-size: 0.8rem;
+}
+
+.lugar{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.contenedorLugar img{
+    width: 50%;
+    display: inline;
+}
+
+.disponibilidad{
+    margin-bottom: 10px;
+    font-size: 0.9rem;
+}
+
+.barra {
+    display: flex;
+    margin-bottom: 10px;
+    width: 100%;
+    justify-content: center;
+}
+.barra div {
+    width: 10px;
+    height: 40px; 
+    margin: 0 2px; 
+    border-radius: 5px;
+}
+
+.tiempo{
+    font-size: 0.9rem;
+    color: #8C8C8C;
+}
+
+/* Contenedor   Unirse */
+
+.cuadro{
+    
+    background: rgb(255,255,255);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 50%, rgba(255,229,246,0.7343137083935136) 75%, rgba(249,190,228,0.8575630081134016) 90%, rgba(255,107,212,0.40098037506018036) 100%); 
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    bottom: 150px;
+    width: 340px;
+    padding: 15px;
+    padding-top: 0px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+.cuadro img{
+    width: 60%;
+}
+
+.cuadro h4{
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+.cuadro p{
+    text-align: center;
+    margin-top: 10px;
+    color: #8A8A8A;
+    font-size: 0.9rem;
+    margin-bottom: 25px;
+}
+
+.cuadro button{
+    width: 100%;
+    height: 60px;
+    font-size: 1.2rem;
+    border-radius: 20px;
+    border: none;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+/* Ganancias */
+.ganancias{
+    background-color: white;
+    width: 320px;
+    padding: 15px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    height: 200px;
+
+}
+
+.seleccion{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.seleccion select{
+    padding: 7px;
+    border-radius: 15px;
+    border: 1px solid #3e3e3e1d;
+    font-size: 1rem;
+
+}
+
+.seleccion h4{
+    font-weight: 600;
+    font-size: 1.3rem;
+}
+
+.mesAbril, .mesMarzo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0px 10px 0px;
+}
+
+.mesMarzo span, .mesAbril span{
+    color: #696969;
+}
+
+.mesMarzo p , .mesAbril p{
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-bottom: 2px;
+}
+
+.ganancias hr{
+    border-color: #b3b2b26b;
+    background-color: #b3b2b27d;
+}
+
+.colores{
+    margin: 0px;
+    padding: 0px;
+    width: 50%;
+    display: flex;
+    gap: 2px;
+}
+
+.estadistica1Abril{
+    height: 20px;
+    width: 50px;
+    background-color: #3C94F7;
+    border-radius: 7px;
+}
+.estadistica2Abril{
+    border-radius: 7px;
+    background-color: #FF91E0;
+    height: 20px;
+    width: 40px;
+}
+
+.estadistica3Abril{
+    border-radius: 7px;
+    background-color: #FDBD12;
+    height: 20px;
+    width: 15px;
+
+}
+
+.estadistica4Abril{
+    background-color: #F76A37;
+    height: 20px;
+    border-radius: 7px;
+    width: 20px;
+}
+
+.estadistica1Marzo{
+    height: 20px;
+    width: 20px;
+    background-color: #3C94F7;
+    border-radius: 7px;
+}
+.estadistica2Marzo{
+    border-radius: 7px;
+    background-color: #FF91E0;
+    height: 20px;
+    width: 60px;
+}
+
+.estadistica3Marzo{
+    border-radius: 7px;
+    background-color: #FDBD12;
+    height: 20px;
+    width: 35px;
+
+}
+
+.estadistica4Marzo{
+    background-color: #F76A37;
+    height: 20px;
+    border-radius: 7px;
+    width: 5px;
+}
